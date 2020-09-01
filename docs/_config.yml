@@ -6,7 +6,7 @@ description: >-
 baseurl: ""
 url: "https://namdang223.github.io"
 twitter_username: jekyllrb
-github_username: jekyll
+github_username: namdang223
 
 #BUild settings
 theme: minima
