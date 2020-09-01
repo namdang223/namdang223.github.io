@@ -6,7 +6,7 @@ categories: senior design
 ---
 
 <html>
-<body style="background-color:powderblue;">
-<p>This that blog 0 </p>
+<body style="background-color:black;">
+<p style-"color:white:">This that blog 0</p>
 </body>
 </html>
