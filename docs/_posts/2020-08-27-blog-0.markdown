@@ -11,6 +11,11 @@ categories: senior design
 
 <style>
 
+html, body, h1, h2, h3, h4, h5, h6, p {
+background-color:white;
+}
+
+
 body {
 background-image: url("https://www.musictruth.com/wp-content/uploads/2018/05/Screen-Shot-2018-04-28-at-7.46.41-PM.jpg");
 background-size: cover;
