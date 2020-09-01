@@ -13,6 +13,7 @@ categories: senior design
 
 body {
 background-image: url("https://www.musictruth.com/wp-content/uploads/2018/05/Screen-Shot-2018-04-28-at-7.46.41-PM.jpg");
+background-size: cover;
 }
 
 </style>
