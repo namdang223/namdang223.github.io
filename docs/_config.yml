@@ -11,4 +11,4 @@ github_username: jekyll
 #BUild settings
 theme: minima
 plugins:
-        -jekyll-feedL
+        -jekyll-feed
