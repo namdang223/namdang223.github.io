@@ -6,6 +6,25 @@ categories: senior design
 ---
 
 <html>
+
+
+
+<style>
+
+
+h1 {
+   color: white; 
+}
+
+
+
+
+</style>
+
+
+
+
+
 <body style="background-color:black;">
 <p style="color:white">
 This week here at CSUN I learned a lot about HTML in my Comp484 class. For starters, I learned about the basic HTML syntaxes including things like an opening tag, an attribute, the contents, and closing tag which all together is called an element. It was really interesting to learn about HTML because it shows background information on how a website is build and you can see every single detail made onto the website.
