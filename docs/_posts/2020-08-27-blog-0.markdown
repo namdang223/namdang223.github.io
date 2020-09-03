@@ -40,7 +40,8 @@ background-size: cover;
 
 
 <body style="background-color:black;">
-<p style="color:white">
+<p style="font-family:verdana color:red">
+
 This week here at CSUN I learned a lot about HTML in my Comp484 class. For starters, I learned about the basic HTML syntaxes including things like an opening tag, an attribute, the contents, and closing tag which all together is called an element. It was really interesting to learn about HTML because it shows background information on how a website is build and you can see every single detail made onto the website.
 <br><br>
 There was a homework assigned to our class to practice our HTML. We used an online IDE called Glitch where the professor posted an incomplete HTML code and our task was to fix up the code so that everything looks legible and in proper place. I played around with the code until everything looked right and the way I wanted it to look. One thing that stood out the most to me was using line breaks in order to space everything out evenly so that there is a gap between the text and it does not look like a giant wall of text. I also used commands like flowLeft and flowRight so that I can shift an existing image either to the left of the page or to the right. Overall, the assignment was pretty easy and was not too difficult as the professor left us with a bunch of instructions on how to complete each individual task. 
