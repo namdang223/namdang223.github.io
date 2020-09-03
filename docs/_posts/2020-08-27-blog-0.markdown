@@ -24,7 +24,7 @@ color:white;
 }
 
 h1 {
-font-family:verdana;
+font-family:impact;
 }
 
 
