@@ -1,0 +1,53 @@
+---
+layout: post
+title: "Blog 1"
+date: 2020-08-27 12:40:45 -0700
+categories: senior design
+---
+
+<html>
+
+<style>
+
+.site-title, .site-title:visited {
+    color: #ffffff;
+}
+
+.site-nav .page-link {
+    color: #fff;
+    line-height: 1.5;
+}
+
+html, body, h2, h3, h4, h5, h6, p {
+color:white;
+
+}
+
+h1 {
+font-family:impact;
+}
+
+
+body {
+background-image: url("https://www.musictruth.com/wp-content/uploads/2018/05/Screen-Shot-2018-04-28-at-7.46.41-PM.jpg");
+background-size: cover;
+}
+
+</style>
+
+
+
+
+
+<body style="background-color:black;">
+<p style="font-family:verdana;color:white">
+
+This week here at CSUN I learned a lot about HTML in my Comp484 class. For starters, I learned about the basic HTML syntaxes including things like an opening tag, an attribute, the contents, and closing tag which all together is called an element. It was really interesting to learn about HTML because it shows background information on how a website is build and you can see every single detail made onto the website.
+<br><br>
+There was a homework assigned to our class to practice our HTML. We used an online IDE called Glitch where the professor posted an incomplete HTML code and our task was to fix up the code so that everything looks legible and in proper place. I played around with the code until everything looked right and the way I wanted it to look. One thing that stood out the most to me was using line breaks in order to space everything out evenly so that there is a gap between the text and it does not look like a giant wall of text. I also used commands like flowLeft and flowRight so that I can shift an existing image either to the left of the page or to the right. Overall, the assignment was pretty easy and was not too difficult as the professor left us with a bunch of instructions on how to complete each individual task.
+<br><br>
+As for my senior design class, I learned about a program called Jekyll in order to build our web page on Github. At first I was trying to install Jekyll on my MacBook but I kept running into errors so I decided to switch over to my Windows PC and everything installed smoothly there. I did not really have many problems except for when I tried to change the theme on my Github, the site would crash and nothing would load. I tried to play around with it for a bit to try to fix it but ultimately gave up and decided to stick to the original minima theme. There was a really cool command called "bundle exec jekyll serve" which allowed me to host my page on a local server. I found that really interesting and was experimenting around with Github to learn and get a better feel off the software. Not a bad week so far, as the work load was at a minimal and the assignments were very instructional which made hands on learning much more efficient for me as I got to work with whats given rather than watching someone else do it and learning from that.
+</p>
+</body>
+</html>
+~
