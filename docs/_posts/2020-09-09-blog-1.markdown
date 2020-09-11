@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Blog 1"
-date: 2020-09-09 10:32:12 -0700
-categories: senior design
+date: 2020-09-09 08:21:59 -0700
+categories: Senior Design
 ---
 
 <html>
@@ -35,19 +35,75 @@ background-size: cover;
 
 </style>
 
-
-
-
-
+  
 <body style="background-color:black;">
 <p style="font-family:verdana;color:white">
 
-This week here at CSUN I learned a lot about HTML in my Comp484 class. For starters, I learned about the basic HTML syntaxes including things like an opening tag, an attribute, the contents, and closing tag which all together is called an element. It was really interesting to learn about HTML because it shows background information on how a website is build and you can see every single detail made onto the website.
+<p>
+This week started off with a day less of school due to labor day weekend which was much need as it gave me more time to relax and focus on myself rather than drawing all my attention toward school. In this week of school, my Comp484 professor taught us 3 main topics which were incorporating links, lists, and structuring pages to our websites. The professor assigned three different homeworks all due on the same day which was a lot of work but a very good hands-on learning experience. Here is what I learned!
 <br><br>
-There was a homework assigned to our class to practice our HTML. We used an online IDE called Glitch where the professor posted an incomplete HTML code and our task was to fix up the code so that everything looks legible and in proper place. I played around with the code until everything looked right and the way I wanted it to look. One thing that stood out the most to me was using line breaks in order to space everything out evenly so that there is a gap between the text and it does not look like a giant wall of text. I also used commands like flowLeft and flowRight so that I can shift an existing image either to the left of the page or to the right. Overall, the assignment was pretty easy and was not too difficult as the professor left us with a bunch of instructions on how to complete each individual task.
+One of the main things learned in my class was incorporating links. This is usually done by using the tag <code style="background-color: grey">&lt;a href=&ldquo;url&rdquo;&gt;text&lt;&frasl;a&gt;</code>. What this does is that the href attribute adds a url that takes you to the website you decide to include. The text content between the opening and closing tags is the clickable text that is linked to url added by the href attribute. It should look something like this: Follow my 
+<a href="https://soundcloud.com/lucidityworldwide" title="Soundcloud" target="_blank">SoundCloud</a>. Enjoy the beats on there!!!
 <br><br>
-As for my senior design class, I learned about a program called Jekyll in order to build our web page on Github. At first I was trying to install Jekyll on my MacBook but I kept running into errors so I decided to switch over to my Windows PC and everything installed smoothly there. I did not really have many problems except for when I tried to change the theme on my Github, the site would crash and nothing would load. I tried to play around with it for a bit to try to fix it but ultimately gave up and decided to stick to the original minima theme. There was a really cool command called "bundle exec jekyll serve" which allowed me to host my page on a local server. I found that really interesting and was experimenting around with Github to learn and get a better feel off the software. Not a bad week so far, as the work load was at a minimal and the assignments were very instructional which made hands on learning much more efficient for me as I got to work with whats given rather than watching someone else do it and learning from that.
+Another big topic that was introduced to our class this week was utilizing both ordered lists and unordered lists. Ordered lists labels everything numerically meanwhile unordered lists labels everything in bullet points. There are also ways you can change the lists types so that instead of bullets it would be labeled alphabetically and there are also ways to reverse the numbers so instead of starting from one to ten, it would go from ten to one. In order to use these lists, you would have to write whatever you want to list between the opening and closing <code style="background-color: grey">&lt;ul&gt;</code> for an unordered list&lang;bullet points&rang;. As for an ordered list&lang;numerical order&rang;, you would do the same but using <code style="background-color: grey">&lt;ol&gt;</code> instead. Here is an example of an ordered list and an unordered list:
+</p>
+
+<h4>Ordered List Example:</h4>  
+<ol>
+<li>Item One</li>
+<li>Item Two</li>
+<li>Item Three</li>
+<li>Item Four</li>
+<li>Item Five</li>
+</ol>
+
+<h4>Unordered List Example:</h4>
+<ul>
+<li>Item One</li>
+<li>Item Two</li>
+<li>Item Three</li>
+<li>Item Four</li>
+<li>Item Five</li>
+</ul>
+<br>  
+ 
+<p>As for listing items in alphabetical order you would have to apply the attribute &rdquo;a&ldquo; to the &lt;ol&gt; tag. The code should look like this <code style="background-color: grey">&lt;ol type=&rdquo;a&ldquo;&gt;</code>. It is important to note that if you use &rdquo;a&ldquo;, you get it in lowercase but if you use &rdquo;A&ldquo;, everything is capitalized. If you want to numerically reverse the list you would have to apply the attribute reverse to the &lt;ol&gt; tag. The code for reverse should look something like this <code style="background-color: grey">&lt;ol start=&rdquo;5&ldquo; reversed&gt;</code>. The number 5 in the element is the number that the list is going to reverse from. If I were to put the number 10, it would start from the number 10 and go down to the number 9 and so on. There is also a way to make sub-bullet points by inplementing an &lt;ul&gt; tag inside of an &lt;ol&gt; tag. That part is pretty self-explanatory. You do this by listing whatever objects you want inside of your &lt;ol&gt; tag and before you close up the &lt;ol&gt; tag, you creating an opening &lt;ul&gt; tag and add in whatever sub-objects you want. Make sure to close the &lt;ul&gt; tag and follow it up with a closing &lt;ol&gt; tag. Here are examples of an alphabetical list, reverse list, and sub-point list:
+</p>
+  
+<h4>Alphabetical List Example:</h4>
+<ol type="A">
+<li>Item One</li>
+<li>Item Two</li>
+<li>Item Three</li>
+<li>Item Four</li>
+<li>Item Five</li>
+</ol>  
+  
+<h4>Reverse List Example:</h4>  
+<ol start="5" reversed>
+<li>Item One</li>
+<li>Item Two</li>
+<li>Item Three</li>
+<li>Item Four</li>
+<li>Item Five</li> 
+</ol> 
+
+<h4>Sub-Point List Example:</h4>    
+<ol>
+<li>Item One</li>
+<li>Item Two</li>
+<li>Item Three</li>
+  <ul>
+<li>Item Sub-Item 1</li>
+<li>Item Sub-Item 2</li>
+<li>Item Sub-Item 3</li>
+  </ul>
+</ol>
+ 
+<p>
+The final thing that I was taught this week was how to structure pages for our website. I was taught elements like navigation, article, section, and div. These elements do not change the display of the website at all and are all apart of the body. These elements are more to structure your page so that it is easier to spot your code and everything is organized for when you go back and need to find a certain line of code. These elements are really useful in terms of organization because looking at an HTML file is a huge wall of words which makes it really difficult to navigate but these specific elements sections your lines of code making it eye-friendly. Towards the end of the class I was taught semantic elements, which are the head and footer. The head is basically the very top of your page which includes the title and important headers. The footer is where you get to plug your contact information like phone number, email address, and website links. Thanks for reading my blog. Catch you next week on the next episode!
+</p>
+  
 </p>
 </body>
 </html>
-~
