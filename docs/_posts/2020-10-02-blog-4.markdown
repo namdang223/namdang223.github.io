@@ -73,7 +73,7 @@ Another useful element is the center element. This element does exactly what it 
 <br>
   
 Lastly, there is the textarea element. This element is done by typing <code style="background-color: grey">&lt;textarea&gt;</code>. This element is used to create a draggable area that allows the user to input any kind of text into it. Textarea is commonly used when the user wants to leave some kind of review or comment on the page. The <code style="background-color: grey">&lt;textarea&gt;</code> looks like this:
-<br>
+<br><br>
 <textarea>Drag me and leave a comment!</textarea>
 
 </p>
