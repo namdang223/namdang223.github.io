@@ -1,0 +1,82 @@
+---
+layout: post
+title: "Blog 4"
+date: 2020-10-02 15:31:50 -0700
+categories: Senior Design
+---
+
+<html>
+
+<style>
+
+.site-title, .site-title:visited {
+    color: #ffffff;
+}
+
+.site-nav .page-link {
+    color: #fff;
+    line-height: 1.5;
+}
+
+html, body, h2, h3, p {
+color:white;
+
+}
+
+h1 {
+  font-family:impact;
+}
+
+body {
+background-image: url("https://www.musictruth.com/wp-content/uploads/2018/05/Screen-Shot-2018-04-28-at-7.46.41-PM.jpg");
+background-size: cover;
+}
+
+</style>
+
+  
+<body style="background-color:black;">
+<p style="font-family:verdana;color:white">
+Hello. Welcome back to this week's blogs where I will be going over some key HTML elements I used in my website. Here are the elements I am going to be explaining:
+<ul>
+  <li>Marquee</li>  
+  <li>Strike</li>
+  <li>Center</li>
+  <li>TextArea</li>
+</ul>
+  Starting off with the marquee element, this element creates a block of moving text. This is considered in HTML as an obsolete element as it is outdated and no longer supported by newer browsers. The marquee element is done by typing the command <code style="background-color: grey">&lt;marquee&gt;</code>. An attribute that goes along with this element is the <code style="background-color: grey">scrollamount</code>. The purpose of scrollamount is to control the speed of the area of moving text. Typing the code <code style="background-color: grey">&lt;marquee scrollamount="5"&gt;</code> will create a marquee text with a modified speed of 5 pixels. Here is an example of the marquee element at different speeds:
+<br><br>
+  
+<div style="width:400px;height:75px;border:4px solid #FFFFFF;">
+  <marquee scrollamount="5">This is an example of marquee at 5 pixels</marquee>
+  <marquee scrollamount="10">This is an example of marquee at 10 pixels</marquee>
+  <marquee scrollamount="25">This is an example of marquee at 25 pixels</marquee>
+  <marquee scrollamount="50">This is an example of marquee at 50 pixels</marquee>
+</div>
+<br>
+  
+Next up, we have the strike element. This element is used to put a line through your text and cross it out. This is a really simple element to use and it can be written in 2 different ways: <code style="background-color: grey">&lt;strike&gt;</code> or <code style="background-color: grey">&lt;s&gt;</code>. The difference between these is that using strike is the older version of doing this command and is now considered as obsolete. Using "s" is more consistent as it is supported by newer browsers and is more likely to work compared to strike if you are on a newer browser. Here is an example of the <code style="background-color: grey">&lt;strike&gt;</code> element: 
+<br><br>
+
+<strike>Joe Biden is our president</strike>
+<br>
+Donald Trump is our president
+<br><br>
+  
+Another useful element is the center element. This element does exactly what it says, it centers everything for you. This element is super simple as it is written as: <code style="background-color: grey">&lt;center&gt;</code>. This element is also considered as an obsolete element and is no longer supported by newer browsers. This element can be used to center text WITHOUT using CSS. Although using CSS is better, this element acts as a cheap shortcut. Here is an example of this element:
+<br><br>
+
+<div style="width:400px;height:55px;border:4px solid #FFFFFF;">
+  <center>This is text when it is centered</center>
+  <br>
+  This is normal text
+</div>
+<br>
+  
+Lastly, there is the textarea element. This element is done by typing <code style="background-color: grey">&lt;textarea&gt;</code>. This element is used to create a draggable area that allows the user to input any kind of text into it. Textarea is commonly used when the user wants to leave some kind of review or comment on the page. The <code style="background-color: grey">&lt;textarea&gt;</code> looks like this:
+<br>
+<textarea>Drag me and leave a comment!</textarea>
+
+</p>
+</body>
+</html>
