@@ -47,7 +47,7 @@ Hello. Welcome back to this week's blogs where I will be going over some key HTM
   Starting off with the marquee element, this element creates a block of moving text. This is considered in HTML as an obsolete element as it is outdated and no longer supported by newer browsers. The marquee element is done by typing the command <code style="background-color: grey">&lt;marquee&gt;</code>. An attribute that goes along with this element is the <code style="background-color: grey">scrollamount</code>. The purpose of scrollamount is to control the speed of the area of moving text. Typing the code <code style="background-color: grey">&lt;marquee scrollamount="5"&gt;</code> will create a marquee text with a modified speed of 5 pixels. Here is an example of the marquee element at different speeds:
 <br><br>
   
-<div style="width:750px;height:75px;border:4px solid #FFFFFF;">
+<div style="width:1000px;height:75px;border:4px solid #FFFFFF;">
   <marquee scrollamount="5">This is an example of marquee at 5 pixels</marquee>
   <marquee scrollamount="10">This is an example of marquee at 10 pixels</marquee>
   <marquee scrollamount="25">This is an example of marquee at 25 pixels</marquee>
