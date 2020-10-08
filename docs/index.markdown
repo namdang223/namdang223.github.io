@@ -7,7 +7,7 @@ layout: home
 <style>
 body {
 
-background-image: url("https://i.pinimg.com/originals/5d/97/b8/5d97b8478ab7fefd6af1b85225640e6d.jpg");
+background-image: url("https://onlyvectorbackgrounds.com/wp-content/uploads/2018/09/Abstract-Ambient-Light-Background-Day-Blue.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 }
