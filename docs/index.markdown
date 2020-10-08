@@ -4,5 +4,8 @@
 
 layout: home
 ---
-<style>background-image:url("https://i.pinimg.com/originals/5d/97/b8/5d97b8478ab7fefd6af1b85225640e6d.jpg");
+<style>
+body {
+background-image: url("https://i.pinimg.com/originals/5d/97/b8/5d97b8478ab7fefd6af1b85225640e6d.jpg");
+}
 </style>
