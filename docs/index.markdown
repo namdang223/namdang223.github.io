@@ -6,6 +6,9 @@ layout: home
 ---
 <style>
 body {
+
 background-image: url("https://i.pinimg.com/originals/5d/97/b8/5d97b8478ab7fefd6af1b85225640e6d.jpg");
+background-size: cover;
+background-repeat: no-repeat;
 }
 </style>
