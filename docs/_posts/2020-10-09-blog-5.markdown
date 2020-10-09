@@ -1,0 +1,81 @@
+---
+layout: post
+title: "Blog 5"
+date: 2020-10-09 12:26:44 -0700
+categories: Senior Design
+---
+
+<html>
+
+<style>
+
+.site-title, .site-title:visited {
+    color: #ffffff;
+}
+
+.site-nav .page-link {
+    color: #fff;
+    line-height: 1.5;
+}
+
+html, body, h2, h3, p {
+color:white;
+
+}
+
+h1 {
+  font-family:impact;
+}
+
+body {
+background-image: url("https://www.musictruth.com/wp-content/uploads/2018/05/Screen-Shot-2018-04-28-at-7.46.41-PM.jpg");
+background-size: cover;
+}
+
+</style>
+
+  
+<body style="background-color:black;">
+<p style="font-family:verdana;color:white">
+  In this week's blog I will be discussing how I built my resume web site. To start off I added google fonts to my website. This was done by adding the command <code style="background-color: grey">&lt;script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"&gt;</code>. What this command does is that it imports all avalaible fonts on fontawesome.com and allows me to use it on my website. After having that command in place, I used <code style="background-color: grey">font-family: "Bebas Neue", cursive;</code>. This adds in the font called Bebas Neue and I added a cursive property to it so that the text comes out in cursive. Here is an example of the 2 different fonts I used in my website:
+ <br>
+<h1 style="font-family: 'Bebas Neue', cursive;">This is the Bebas Neue font</h1>
+<h1 style="font-family: 'Fahkwang', sans-serif;">This is the Fahkwang font</h1>
+<br>
+
+Up next I added special icons to my social media contacts in my footer. I did this by using the command same command <code style="background-color: grey">&lt;script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"&gt;</code>. This allows me to import any icon that is available on the fontawesome. For my website I added the Twitter icon and Facebook icon. This was done by using the <code style="background-color: grey">&lt;href&gt;</code> tag along with including a class attribute to it in order to include the icon logo. All together the code looks like this <code style="background-color: grey">&lt;a href="https://twitter.com/"&gt;&lt;i class="fab fa-twitter"&gt;</code>. Having all that adds a hyperlink to Twitter with both text and a little icon next to it. Here is an example of the href command in effect:
+<br><br>
+  
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"> </script>
+<a href="https://twitter.com/"><i class="fab fa-twitter"></i> Twitter</a>
+<br>
+<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i> Facebook</a>
+<br>
+<a href="https://namdang223.github.io" target="_blank"><i class="fab fa-git-square"></i> GitHub</a>  
+<br>
+<a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i>YouTube</a>
+<br>
+<a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i>Instagram</a>
+  
+<br><br>
+
+After that I added a navigation bar that helps navigate through my entire page. The command for this is simple as it is just <code style="background-color: grey">&lt;nav&gt;</code>. After that element is in use, you will need to link an href like this <code style="background-color: grey">&lt;a href="#section"&gt;</code> in order to link your navigation bar to that certain section. Within my CSS I added these properties to shape up my navigation bar.
+ <ul>
+   <li>height:35px;</li>
+   <li>width:100%;</li>
+   <li> background-color: #DCEBF9;</li>
+   <li> text-align: center;</li>
+   <li> position: fixed;</li>
+   <li> font-family: "Bebas Neue", cursive;</li>
+  </ul>
+These properties do exactly what they say they do. 35px on the height makes it so that the maximum height for the navigation bar is 35 pixels. Width 100% makes the width of the navigation bar stretch from one side all the way to the other side. Background color #DCEBF9 makes the navigation bar have a whitish blue background. Text align center centers the entire bar with position fixed making it so that the bar follows you whenever you scroll down. I added the navigation bar at the very top of my web page on top of the title. It looks a little something like this: 
+<br><br>
+<center>
+<img src="https://i.imgur.com/6gk7Xb0.jpg">
+</center>
+
+Here is a link to my 
+<a href="https://cdn.glitch.com/8d34139d-f376-4a33-895f-7dc627f0d77d%2Fscreencapture-namdang-hw8-glitch-me-2020-10-08-15_23_42.pdf?v=1602195854486" target="_blank">resume</a>
+  </p>
+</body>
+</html>
