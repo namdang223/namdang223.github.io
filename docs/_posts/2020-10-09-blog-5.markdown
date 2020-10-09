@@ -37,7 +37,7 @@ background-size: cover;
   
 <body style="background-color:black;">
 <p style="font-family:verdana;color:white">
-  In this week's blog I will be discussing how I built my resume web site. To start off I added google fonts to my website. This was done by adding the command <code style="background-color: grey">&lt;script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"&gt;</code>. What this command does is that it imports all avalaible fonts on fontawesome.com and allows me to use it on my website. After having that command in place, I used <code style="background-color: grey">font-family: "Bebas Neue", cursive;</code>. This adds in the font called Bebas Neue and I added a cursive property to it so that the text comes out in cursive. Here is an example of the 2 different fonts I used in my website:
+  In this week's blog I will be discussing how I built my resume web site. To start off I added google fonts to my website. This was done by adding the command <code style="background-color: grey">&lt;script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"&gt;</code>. What this command does is that it imports all available fonts on fontawesome.com and allows me to use it on my website. After having that command in place, I used <code style="background-color: grey">font-family: "Bebas Neue", cursive;</code>. This adds in the font called Bebas Neue and I added a cursive property to it so that the text comes out in cursive. Here is an example of the 2 different fonts I used in my website:
  <br>
 <h1 style="font-family: 'Bebas Neue', cursive;">This is the Bebas Neue font</h1>
 <h1 style="font-family: 'Fahkwang', sans-serif;">This is the Fahkwang font</h1>
