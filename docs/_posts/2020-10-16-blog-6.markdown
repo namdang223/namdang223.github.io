@@ -1,0 +1,79 @@
+---
+layout: post
+title: "Blog 6"
+date: 2020-10-16 08:16:21 -0700
+categories: Senior Design
+---
+
+<html>
+
+<style>
+
+.site-title, .site-title:visited {
+    color: #ffffff;
+}
+
+.site-nav .page-link {
+    color: #fff;
+    line-height: 1.5;
+}
+
+html, body, h2, h3, p {
+color:white;
+
+}
+
+h1 {
+  font-family:impact;
+}
+
+body {
+background-image: url("https://www.musictruth.com/wp-content/uploads/2018/05/Screen-Shot-2018-04-28-at-7.46.41-PM.jpg");
+background-size: cover;
+}
+
+</style>
+
+  
+<body style="background-color:black;">
+<p style="font-family:verdana;color:white">
+In this weeks blog I am going to explain how to fix screen tearing on your monitor in Windows 10. Screen tearing is when "a visual artifact in video display where a display device shows information from multiple frames in a single screen draw. The artifact occurs when the video feed to the device is not in sync with the display's refresh rate" according to Wikipedia. Screen tearing looks a little something like that: 
+<center>
+<img src="https://i.imgur.com/ZHyv0sl.jpg">
+</center>
+<br><br>
+Here is how you fix it:
+<ol>
+  <li>Click the Windows Icon at the bottom left of your task bar</li>
+  <li>Type in "Display Settings" and open it</li>
+  <li>Click on "Advance Display Settings" at the bottom</li>
+  <li>Click on "Display adapter properties for Display 1"</li>
+    <center>
+      <img src="https://i.imgur.com/dW2K9Ls.jpg">
+    </center>
+  <li>Click on the "Monitor" tab</li>
+  <li>In the "Screen Refresh Rate" setting, lower the refresh rate so that it fits your monitor settings </li>
+    <center>
+      <img src="https://i.imgur.com/WWmOTtQ.jpg">
+    </center>
+</ol>
+<br><br>
+This should fix the screen tearing issue on your monitor. If the problem still persist, you will need to update your video drivers. This is how you do it:
+<ol>
+  <li>Click the Windows Icon at the bottom left of your task bar</li> 
+  <li>Type in "Device Manager" and open it</li>
+  <li>Expand the "Display Adapter" tab</li>
+    <center>
+      <img src="https://i.imgur.com/eJv4WrL.jpg">
+    </center>
+  <li>Right click on your graphics card and click "Update Driver"</li>
+    <center>
+      <img src="https://i.imgur.com/ZfLYDhd.jpg">
+    </center>
+  <li>Search for an automatic update or manually update from your files</li>
+</ol>
+<br><br>
+This should fix your issues with screen tearing. Enjoy your fixed monitor :)
+</p>
+</body>
+</html>
