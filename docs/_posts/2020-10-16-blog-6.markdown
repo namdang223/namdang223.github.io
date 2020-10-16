@@ -51,11 +51,13 @@ Here is how you fix it:
     <center>
       <img src="https://i.imgur.com/dW2K9Ls.jpg">
     </center>
+<br>
   <li>Click on the "Monitor" tab</li>
   <li>In the "Screen Refresh Rate" setting, lower the refresh rate so that it fits your monitor settings </li>
     <center>
       <img src="https://i.imgur.com/WWmOTtQ.jpg">
     </center>
+<br>
 </ol>
 <br><br>
 This should fix the screen tearing issue on your monitor. If the problem still persist, you will need to update your video drivers. This is how you do it:
@@ -66,10 +68,12 @@ This should fix the screen tearing issue on your monitor. If the problem still p
     <center>
       <img src="https://i.imgur.com/eJv4WrL.jpg">
     </center>
+<br>
   <li>Right click on your graphics card and click "Update Driver"</li>
     <center>
       <img src="https://i.imgur.com/ZfLYDhd.jpg">
     </center>
+<br>
   <li>Search for an automatic update or manually update from your files</li>
 </ol>
 <br><br>
