@@ -48,28 +48,32 @@ Here is how you fix it:
   <li>Type in "Display Settings" and open it</li>
   <li>Click on "Advance Display Settings" at the bottom</li>
   <li>Click on "Display adapter properties for Display 1"</li>
+<br>
     <center>
       <img src="https://i.imgur.com/dW2K9Ls.jpg">
     </center>
 <br>
   <li>Click on the "Monitor" tab</li>
   <li>In the "Screen Refresh Rate" setting, lower the refresh rate so that it fits your monitor settings </li>
+<br>
     <center>
       <img src="https://i.imgur.com/WWmOTtQ.jpg">
     </center>
 <br>
 </ol>
-<br><br>
+<br>
 This should fix the screen tearing issue on your monitor. If the problem still persist, you will need to update your video drivers. This is how you do it:
 <ol>
   <li>Click the Windows Icon at the bottom left of your task bar</li> 
   <li>Type in "Device Manager" and open it</li>
   <li>Expand the "Display Adapter" tab</li>
+<br>
     <center>
       <img src="https://i.imgur.com/eJv4WrL.jpg">
     </center>
 <br>
   <li>Right click on your graphics card and click "Update Driver"</li>
+<br>
     <center>
       <img src="https://i.imgur.com/ZfLYDhd.jpg">
     </center>
