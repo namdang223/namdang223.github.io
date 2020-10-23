@@ -1,0 +1,70 @@
+---
+layout: post
+title: "Blog 7"
+date: 2020-10-23 11:15:54 -0700
+categories: Senior Design
+---
+
+<html>
+
+<style>
+
+.site-title, .site-title:visited {
+    color: #ffffff;
+}
+
+.site-nav .page-link {
+    color: #fff;
+    line-height: 1.5;
+}
+
+html, body, h2, h3, p {
+color:white;
+
+}
+
+h1 {
+  font-family:impact;
+}
+
+body {
+background-image: url("https://www.musictruth.com/wp-content/uploads/2018/05/Screen-Shot-2018-04-28-at-7.46.41-PM.jpg");
+background-size: cover;
+}
+
+</style>
+
+  
+<body style="background-color:black;">
+<p style="font-family:verdana;color:white">
+In this weeks blog I am going to explain different array methods used in JavaScript. Starting off, an array can be written in JavaScript by first creating a variable name for the array and then defining the values inside of the array. This is a simple code for creating an array in JavaScript:
+<br>
+  <center>
+  <img src="https://i.imgur.com/WzFWwtZ.jpg">
+  </center>
+<br>
+To explain what everything means, on the first line where it displays <code style="background-color: grey">var pens</code>, pens is the name of the variable you are defining. Following that, on the next line where is says <code style="background-color: grey">pens = new Array("red", "blue", "green", "orange")</code>, the values of the array is being presented.
+<br><br>
+<li>Value 0 in the array = red</li>
+<li>Value 1 in the array = blue</li>
+<li>Value 2 in the array = green</li>
+<li>Value 3 in the array = orange</li>
+<br>
+If you were to run array the following array on the console using the command  <code style="background-color: grey">console.log(pens)</code>, the array string displayed will be:  <code style="background-color: grey">red, blue, green, orange</code> in that exact order. A method that can be used in an array is the reverse method. It does exactly was it says it does and reverses the order of the array for you. The command for this using the same variable name would be  <code style="background-color: grey">pens.reverse()</code>. The values of the array will be reversed and values would be altered to look like this:
+<br><br>
+<li>Value 0 in the array = orange</li>
+<li>Value 1 in the array = green</li>
+<li>Value 2 in the array = blue</li>
+<li>Value 3 in the array = red</li>
+<br>
+When running the array on the console, the following output will be displayed: <code style="background-color: grey">orange, green, blue, red</code>. 
+<br><br>
+The next method I am going to go over is the shift method. This method allows you to remove the first value of the array. This command is written using the same variable as <code style="background-color: grey">pens.shift()</code>. In using the shift method in the array, the value "red" would be removed as it is the first value in the area. The first value of the array becomes "blue" because it is the next in line. The output of the array then becomes: <code style="background-color: grey">blue, green, orange</code> since the value "red" in the array is shifted and pushed out of the array. 
+<br><br>
+Finally, the last method I am going to be going over is the complete opposite of the shift method, the pop method. Instead of removing the first value of the array, the last value of the array is removed. The array pop method is written using the same variable as <code style="background-color: grey">pens.pop()</code>. In this method, the value labeled as orange is removed from the array as it is the last value within the area. If you were to output the array, the output would now be <code style="background-color: grey">red, blue, green</code> since orange is removed and no longer a part of the array.
+<br><br>
+If you were to use both the shift and pop method, the only values that would remain would be <code style="background-color: grey">blue, green</code> since the first and last values are being removed, which were red&lang;first&rang; and orange&lang;last&rang;. 
+</p>
+  
+</body>
+</html>
