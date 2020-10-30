@@ -1,0 +1,68 @@
+---
+layout: post
+title: "Blog 8"
+date: 2020-10-30 09:21:44 -0700
+categories: Senior Design
+---
+
+<html>
+
+<style>
+
+.site-title, .site-title:visited {
+    color: #ffffff;
+}
+
+.site-nav .page-link {
+    color: #fff;
+    line-height: 1.5;
+}
+
+html, body, h2, h3, p {
+color:white;
+
+}
+
+h1 {
+  font-family:impact;
+}
+
+body {
+background-image: url("https://www.musictruth.com/wp-content/uploads/2018/05/Screen-Shot-2018-04-28-at-7.46.41-PM.jpg");
+background-size: cover;
+}
+
+</style>
+
+  
+<body style="background-color:black;">
+<p style="font-family:verdana;color:white">
+In this week's blog I will be going over how to do basic SQL(Structured Query Language) syntaxes and what each of them do. To start off, the single most important SQL statement is <code style="background-color: grey">SELECT</code>. The SELECT statement allows you to choose from a specific column. Following the SELECT statement, it must be paired with the  <code style="background-color: grey">FROM</code> statement. The FROM statement allows you to pull data from a specific table in your database. Each SQL statement must include a SELECT and a FROM statement as it is pulling specific columns from a specific table. Here is a code snippet of a basic SQL function that selects two different columns from a table:
+<br><br>
+<center>
+<img src= "https://cdn.glitch.com/4ee2527b-0ece-4a7c-a9d7-ab390564c4a8%2F22822248-c68d-41b2-9ab8-f542d20f30a4.image.png?v=1604018347666">
+</center>
+<br><br>
+  There is also a way to select all columns instead of singling out specific columns in a SQL database. The <code style="background-color: grey">*</code> statement is essentially saying "all". So by saying <code style="background-color: grey">SELECT *</code>, it means that you are selecting all columns from a specific table. It can be written out like this:
+<br><br>
+<center>
+<img src= "https://cdn.glitch.com/4ee2527b-0ece-4a7c-a9d7-ab390564c4a8%2Fsql%202.jpg?v=1604019309341">
+</center>
+<br><br>
+SQL also utilizes operators such as <code style="background-color: grey">WHERE, LIKE, NOT LIKE, AND</code>. The <code style="background-color: grey">WHERE</code> statement is where you would enter your specific conditions that you want to me. Following up, the <code style="background-color: grey">AND</code> statement allows you to have another condition along with the previous one. The <code style="background-color: grey">LIKE</code> statement and the <code style="background-color: grey">NOT LIKE</code> are polar opposites. What this means is that it includes the exact string. So if you use LIKE, whatever you put into the string will come up exactly word for word as it is written in the table. Using NOT LIKE, will include every word but the one in the string. An example of using the LIKE statement to find just Toy Story movies in a list of Disney Movies: 
+<br><br>
+<center>
+<img src="https://cdn.glitch.com/4ee2527b-0ece-4a7c-a9d7-ab390564c4a8%2Fsql%203.jpg?v=1604020274003">
+</center>
+<br><br>
+  Lastly is the <code style="background-color: grey">ORDER BY</code>statement. This is how you would alphabetically list or in reverse alphabetical order. To use this statement you would have to write <code style="background-color: grey">ORDER BY column ASC</code>. In the column attribute, you would have to put the name of your column. The <code style="background-color: grey">ASC</code> means to list everything in ascending order. If you want the list to be descending, switch it to <code style="background-color: grey">DESC</code> instead. Here is an example of this code:
+<br><br>
+<center>
+<img src= "https://cdn.glitch.com/4ee2527b-0ece-4a7c-a9d7-ab390564c4a8%2Fdd5a6eec-da3c-4caf-8214-49c906c35af8.image.png?v=1604020567657">
+</center>
+<br><br>
+There are many other syntaxes used in SQL but these are the most basic ones that should be used in almost every SQL database. These statements are what you would see in almost every single SQL code. These SQL code can be inputted into either Microsoft Access, Excel, or even any online SQL editor. It is preferred to use either Access or Excel because these are the main programs and most commonly used by most businesses. 
+</p>
+  
+</body>
+</html>
