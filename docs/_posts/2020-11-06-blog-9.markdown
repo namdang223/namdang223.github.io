@@ -1,0 +1,63 @@
+---
+layout: post
+title: "Blog 9"
+date: 2020-06-30 09:41:26 -0700
+categories: Senior Design
+---
+
+<html>
+
+<style>
+
+.site-title, .site-title:visited {
+    color: #ffffff;
+}
+
+.site-nav .page-link {
+    color: #fff;
+    line-height: 1.5;
+}
+
+html, body, h2, h3, p {
+color:white;
+
+}
+
+h1 {
+  font-family:impact;
+}
+
+body {
+background-image: url("https://www.musictruth.com/wp-content/uploads/2018/05/Screen-Shot-2018-04-28-at-7.46.41-PM.jpg");
+background-size: cover;
+}
+
+</style>
+
+  
+<body style="background-color:black;">
+<p style="font-family:verdana;color:white">
+In this week's blog I will be going over more SQL(Structured Query Language) syntaxes and what each of them do. Starting off with the SQL statement <code style="background-color: grey">Date</code>. Date does exactly what it says it does, it provides a date for your SQL coding. The date statement has to be used within an AND/OR statement. Using the date statement within a condition allows you to isolate variables in a table within a certain time period. For example, if you want to gather all data in the month of November 2020, you would have to write the code as followed: <code style="background-color: grey">AND DATE BETWEEN #11/01/2020# AND #11/30/2020#</code>. What this does is that it is pulling every single data from the beginning of November 2020 all the way to the end of November 2020.
+<br><br>
+The next SQL statement is <code style="background-color: grey">GROUP BY</code>. What GROUP BY does is that it groups rows with similar values into what is known as a summary row. For example, if you wanted to find the number of people ordering a certain ice cream flavor in each country, you would use the GROUP BY statement. To code this statement, you would write <code style="background-color: grey">GROUP BY (column)</code> with (column) being the name of your designated column. This statement is always used at the very end of the code and makes the end of your code. An example of this statement from a Car Rental Database asks for the average mileage of cars that had tune-ups in the month of August 2003. The following code will output the chart for average mileages of cars that had tune-ups:
+<br><br>
+<center>
+<img src="https://i.imgur.com/DXJUkX1.jpg">
+</center>
+<br><br>
+The next type of syntax I am going to be talking about is using operators like less than, greater than, and equal without the use of numbers. What I mean by this is that instead of saying a variable is less than a certain number, the variable is going to be less than a certain letter in the alphabet. For example, if I write the code <code style="background-color: grey">AND COLUMN &lt;= 'F'</code>, every name in the column that starts with the letter A, B, C, D, E, and F will be pulled as the statement is essentially reading every letter that is F and before it. Adding multiple statements allows you to pull a certain range of letters. If I wanted to gather data for every name between the letters 'A' and 'G', I would use 2 AND statements. It would have to be <code style="background-color: grey">AND COLUMN &gt;= 'A'</code> and <code style="background-color: grey">AND COLUMN &lt; 'H'</code>. This is basically saying to gather every letter that is 'A' and greater all the way to letters before 'H'. An example of this in a Car Rental database is to list all the manufacturers in Japan that begins with the letters C or D. The following code displays the following output:
+<br><br>
+<center>
+<img src= "https://i.imgur.com/ZMnNI41.jpg">
+</center>
+<br><br>
+Lastly, is the usage of both the statements <code style="background-color: grey">LIMIT</code> and <code style="background-color: grey">OFFSET</code>. The purpose of LIMIT is to restrain the table to a certain amount. If the LIMIT were to be at 5, only 5 rows within the column will be displayed. The purpose of OFFSET is to start the row at a certain amount. If the OFFSET was 5 in a column of 10 rows, instead of starting at the first row, the column would begin with the fifth row. Combining this two statements allows you to have a column with a certain amount, beginning at a certain amount too. An example of this in a Pixar Movie database to list the next five Pixar movies sorted alphabetically is written as followed:
+<br><br>
+<center>
+<img src= "https://i.imgur.com/uX6CIHC.jpg">
+</center>
+<br><br>
+</p>
+  
+</body>
+</html>
