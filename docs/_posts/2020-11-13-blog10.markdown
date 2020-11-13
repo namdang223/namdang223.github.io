@@ -1,0 +1,71 @@
+yout: post
+title: "Blog 10"
+date: 2020-11-13 11:45:44 -0700
+categories: Senior Design
+---
+
+<html>
+
+<style>
+
+.site-title, .site-title:visited {
+    color: #ffffff;
+}
+
+.site-nav .page-link {
+    color: #fff;
+    line-height: 1.5;
+}
+
+html, body, h2, h3, p {
+color:white;
+
+}
+
+h1 {
+  font-family:impact;
+}
+
+body {
+background-image: url("https://www.musictruth.com/wp-content/uploads/2018/05/Screen-Shot-2018-04-28-at-7.46.41-PM.jpg");
+background-size: cover;
+}
+
+</style>
+
+  
+<body style="background-color:black;">
+<p style="font-family:verdana;color:white">
+In this week's blog I am going to be going over Javascript and HTML in order to create a button that updates its numerical values whenever you click on it. Use this website as reference:
+<a href="https://namdang-p2.glitch.me/" target="_blank">My Website</a> for what I am going to be explaining.
+<br><br>
+First off, using HTML, you have to create a button element with its own custom attributes. For my website, I had the first button labeled as the treat button. To create this button I typed the code:
+<center>
+<img src="https://i.imgur.com/qezALAF.png">
+</center>
+<br>
+The portion of the code that says <code style="background-color: grey">&lt;button onclick="treating()" class="treat-button"&gt;</code> creates a clickable button with a class titled "treat-button". The next part of the code that says <code style="background-color: grey">&lt;function treating(){&gt;</code> creates a function known as "treating" that will be pulled from the JavaScript file. I repeated the same step an additional 3 times but changing the names of the attributes to "play", "exercise", and "snitch". This allowed me to have 4 different clickable buttons with different titles.
+<br><br>
+Up next, in the JavaScript file, I created the call functions so that the HTML and JavaScript are in sync with each other and can receive data from another. I created a different call function for each button. This is the code on how to call functions:
+<br><br>
+<center>
+<img src="https://i.imgur.com/SOhfJ0b.png">
+</center>
+<br><br>
+Next, a function for each button needs to be created in order to have the button update the values. Starting off with the function for the treat button, I created the function with the command: <code style="background-color: grey">function clickedTreatButton()</code>. What this does is it applies whatever rules are incorporated in the function to be updated on your website. In my case, I added the rules: <code style="background-color: grey">pet_info.happiness ++;</code> and <code style="background-color: grey">pet_info.weight++;</code>. This makes it so that when you click on the treat button, the happiness and weight of the variable is incremented by one. After that, I added the code <code style="background-color: grey">var audio = document.getElementById("audio1");</code> and <code style="background-color: grey">audio.play();</code>. These two elements paired together adds audio to the button whenever you click it. To make sure that the information stored is constantly updating with every click, I use the command <code style="background-color: grey">checkAndUpdatePetInfoInHtml();</code>. Here is the code for what I am explaining:
+<br><br>
+<center>
+<img src="https://i.imgur.com/H2OJABa.png">
+</center>
+<br><br>
+I replicated the code mentioned above an additional 3 times changing the variable names to match the names of my button. It is important to note that in the HTML file, you need to add an audio id in order to have the JavaScript function call any audio. Using the code <code style="background-color: grey">&lt;audio id="audio1" src=https://cdn.glitch.com/4275f243-63e7-4deb-90ca-a97f06c7e7fc%2FTrey%20Way.mp3?v=1604443210302"</code>, I was able to connect audio to the click of the button. The same code is replicated a total of 4 times with different audio files so that each button has its own unique sound. Lastly, I needed to have an update function so that every time I click the button the value is retained and with another click, the button's values are updated and still retained. By creating the function: <code style="background-color: grey"> function updatePetInfoInHtml()</code>, I was able to update my values with the different names used. Having the values name, weight, happiness, and jail, I updated them by using this JavaScript code:
+<br><br>
+<center>
+<img src="https://i.imgur.com/7bCjjdt.png">
+</center>
+</p>
+  
+</body>
+</html>
+
+
