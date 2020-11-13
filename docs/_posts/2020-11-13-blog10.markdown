@@ -1,4 +1,5 @@
-yout: post
+---
+layout: post
 title: "Blog 10"
 date: 2020-11-13 11:45:44 -0700
 categories: Senior Design
