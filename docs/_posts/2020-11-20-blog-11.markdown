@@ -1,0 +1,70 @@
+---
+layout: post
+title: "Blog 11"
+date: 2020-11-20 11:45:44 -0700
+categories: Senior Design
+---
+
+<html>
+
+<style>
+
+.site-title, .site-title:visited {
+    color: #ffffff;
+}
+
+.site-nav .page-link {
+    color: #fff;
+    line-height: 1.5;
+}
+
+html, body, h2, h3, p {
+color:white;
+
+}
+
+h1 {
+  font-family:impact;
+}
+
+body {
+background-image: url("https://www.musictruth.com/wp-content/uploads/2018/05/Screen-Shot-2018-04-28-at-7.46.41-PM.jpg");
+background-size: cover;
+}
+
+</style>
+
+  
+<body style="background-color:black;">
+<p style="font-family:verdana;color:white">
+In this week's blog I am going to be use a pessimistic lock that would be able to lock, unlock, and manipulate any data activies. Everything I will be demonstrating will be based on this relational diagram:
+<br><br>
+  <center>
+  <img src="https://i.imgur.com/Le3dfEI.png">
+<br><br>
+  <img src="https://i.imgur.com/BrVsXJL.png">
+</center>
+<br><br>
+The first pessimistic lock I am going to be going over is a pessimistic lock but the two-phase locking protocol is not being used. In order to do this, you would need to follow these steps:
+<ol>
+  <li>Lock INVOICE</li>
+  <li>Insert row 10983 into INVOICE</li>
+  <li>Unlock INVOICE</li>
+  <li>Lock LINE</li>
+  <li>Insert into row 10983, 1 into LINE</li> 
+  <li>Unlock LINE</li> 
+  <li>Lock PRODUCT</li> 
+  <li>UpdatePRODUCT 11QER/31, P_QTYOH from 47 to 46</li> 
+  <li>Unlock PRODUCT</li> 
+  <li>Lock CUSTOMER</li> 
+  <li>Update CUSTOMER 10010, CUS_BALANCE from 345.67 to 464.47</li> 
+  <li>Update CUSTOMER 10010, CUS_DATELSTPUR from 05-May-2010 to 11-May-2012</li> 
+  <li>Unlock CUSTOMER</li> 
+</ol>
+  To go into further explanation, step 1 locks the invoice so that it can no longer be modified. The purpose of this is so that everything else inside the INVOICE will be changed while the INVOICE remains the same. In step 2, you are inserting row 10983 into INVOICE and only into INVOICE. In next few steps, steps 3 and steps 4, you are unlocking the INVOICE so that information can be stored again and LINE is being locked so no more information is going to be registered. The purpose of step 5 is to insert the values of  locked from the line into row 10983 and with that being inserted, the value 1 is added into LINE. Step 6-8 unlocks the LINE and locks the PRODUCT so that it the product can be updated with 11QER/31. That allows for the value in P_QTYOH to be changed from 47 to 46. Step 9 and Step 10 unlocks PRODUCT and locks CUSTOMER so that CUSTOMER values can be modified. STEP 11 is updating CUSTOMER balancing. By typing <code style="background-color: grey">CUS_BALANCE</code>, it allows you to change the numerical values in the statement. In this example, the numbers 345.67 is changed to 464.47. Step 12 is also updating the CUSTOMER but not the balance, rather instead the date. By typing  <code style="background-color: grey">CUS_DATELSTPUR</code>, you are able to customize the date. In this example, the date is changed from May 5, 2010 to May 11, 2012. Finally, in Step 13, you are unlocking the CUSTOMER and by default saving everything and ensuring that the values won't be changed anymore.
+</p>
+  
+</body>
+</html>
+
+
