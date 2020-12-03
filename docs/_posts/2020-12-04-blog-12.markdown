@@ -1,0 +1,59 @@
+yout: post
+title: "Blog 12"
+date: 2020-12-04 11:45:44 -0700
+categories: Senior Design
+---
+
+<html>
+
+<style>
+
+.site-title, .site-title:visited {
+    color: #ffffff;
+}
+
+.site-nav .page-link {
+    color: #fff;
+    line-height: 1.5;
+}
+
+html, body, h2, h3, p {
+color:white;
+
+}
+
+h1 {
+  font-family:impact;
+}
+
+body {
+background-image: url("https://www.musictruth.com/wp-content/uploads/2018/05/Screen-Shot-2018-04-28-at-7.46.41-PM.jpg");
+background-size: cover;
+}
+
+</style>
+
+  
+<body style="background-color:black;">
+<p style="font-family:verdana;color:white">
+  In this weekly blog I am going to be going over how to create index that can tune the database performance with the <code style="background-color: grey">CREATE INDEX</code> command. Given the following query: 
+<br><br>
+<center>
+<img src="https://i.imgur.com/563vLFi.png">  
+</center>
+<br><br>
+  In order to create an index to tune the database performance for the following query you will need to use the <code style="background-color: grey">EMP_AREACODE</code>. You will also need both the <code style="background-color: grey">EMP_LNAME</code> and the <code style="background-color: grey">EMP_FNAME</code>. The reason for this is that these are the attributes needed in order to create an index on the employee data table. By using these attributes, the code <code style="background-color: grey">CREATE INDEX EMP_TEST1 ON EMPLOYEE(EMP_AREACODE)</code> and <code style="background-color: grey">CREATE INDEX EMP_TEST2 ON EMPLOYEE(EMP_LNAME, EMP_FNAME)</code> will tune the database performance to focus primarily on certain employees with certain area codes.
+<br>
+To go in further depth about the table statistics, the type of optimization the database management system will use is the rule-based optimization. This rule determine whether or not to execute a query based on the available table data. To relate it to the question above, the rule-based optimization is absolutely necessary in order to execute the query. Without it, the query will just list all the raw data inside of it, without sorting out specific filters such as area code, first name, last name, etc. Here is a table that helps explains the purpose of optimization in SQL:
+<br><br>
+<center>
+<img src="https://data-flair.training/blogs/wp-content/uploads/sites/2/2017/05/Spark-SQL-Optimization-2.jpg">
+</center>
+<br><br>
+An alternative would be to create another index to tune the database performance. The reason for this is that the column is bound to use many different SQL queries as a conditional statement. This can result in unnecessary loops and takes up more storage than normal. This is only an alternative and is not the best means in accomplish this. Only create another index if all other solutions fail. You have been warned. 
+</p>
+  
+</body>
+</html>
+
+
