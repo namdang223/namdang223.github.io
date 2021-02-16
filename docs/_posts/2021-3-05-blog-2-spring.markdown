@@ -50,6 +50,7 @@ Starting off, you will need to go to your AWS Trusted Advisor Dashboard. This ca
 </center>
 <br><br>
 With all your settings configured to your liking, what you want to do now is go to the <code style="background-color: grey">Preference</code> tab on the right and allow weekly email notifications so that AWS Trusted Advisor will send you reports of your results and cost-saving estimates. Check off <code style="background-color: grey">Billing Contact</code> and enter in the email you want to have your results sent to. Click <code style="background-color: grey">Save Email Preferences</code> at the bottom and your AWS Trusted Advisor should be all set up and ready to send you your results on a weekly basis.
+<br><br>
 <center>
 <img src="https://i.imgur.com/bXJcDmE.jpg">  
 </center>
