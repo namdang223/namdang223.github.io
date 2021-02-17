@@ -1,4 +1,5 @@
-yout: post
+---
+layout: post
 title: "Blog 11 Spring"
 date: 2021-05-14 3:23:14 -0700
 categories: Senior Design
