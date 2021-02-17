@@ -39,7 +39,7 @@ background-size: cover;
 <p style="font-family:verdana;color:white">
 <br>
 <center>
-<img src="hhttps://www.freecodecamp.org/news/content/images/2020/08/wireshark-1.png">
+<img src="https://nimishprabhu.com/wp-content/uploads/2013/06/wireshark-logo.png">
 </center>
 <br><br>
 In this weekly blog I am going to be going over how to download Wireshark and how to capture data packets on it. Wireshark is s a packet sniffer and analysis tool. It captures network traffic on the local network and stores that data for offline analysis. Wireshark captures network traffic from Ethernet, Bluetooth, Wireless (IEEE.802.11), Token Ring, Frame Relay connections, and more. 
